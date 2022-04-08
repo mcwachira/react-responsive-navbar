@@ -1,8 +1,13 @@
 import React from 'react'
-
+import './Button.styles.css'
+import { Link } from 'react-router-dom'
 const Button = () => {
     return (
-        <div>Button</div>
+        <Link to='/donate'>
+            <button className="btn">
+                Donate
+            </button>
+        </Link>
     )
 }
 
